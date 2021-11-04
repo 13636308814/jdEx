@@ -28,8 +28,8 @@ const JD_API_HOST = 'https://api.m.jd.com/', actCode = 'visa-card-001';
     $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/bean/signIndex.action', {"open-url": "https://bean.m.jd.com/bean/signIndex.action"});
     return;
   }
-  let lnStartAcc=6;
-  let lnTotalAcc=lnStartAcc+2;
+  let lnStartAcc=15;
+  let lnTotalAcc=lnStartAcc+5;
   
   if (lnTotalAcc>cookiesArr.length){
 	  lnTotalAcc=cookiesArr.length;

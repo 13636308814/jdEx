@@ -29,7 +29,7 @@ const JD_API_HOST = 'https://api.m.jd.com/', actCode = 'visa-card-001';
     return;
   }
   let lnStartAcc=0;
-  let lnTotalAcc=lnStartAcc+2;
+  let lnTotalAcc=lnStartAcc+5;
   
   if (lnTotalAcc>cookiesArr.length){
 	  lnTotalAcc=cookiesArr.length;
