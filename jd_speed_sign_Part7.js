@@ -1,5 +1,5 @@
-/*
-cron "0 7 * * *" jd_speed_sign_Part7.js, tag:京东极速版任务7
+﻿/*
+cron "30 12-23/6 * * *" jd_speed_sign_Part7.js, tag:京东极速版任务7
 */
 
 const $ = new Env('京东极速版任务7');
